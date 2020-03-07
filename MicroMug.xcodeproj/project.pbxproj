@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B18EC1124133A5A000603BC /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18EC1024133A5A000603BC /* RecipeCell.swift */; };
+		7B18EC1324133A6E000603BC /* RecipeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18EC1224133A6E000603BC /* RecipeCategory.swift */; };
+		7B18EC1524133D9E000603BC /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18EC1424133D9E000603BC /* RecipesViewController.swift */; };
+		7B18EC172414424A000603BC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18EC162414424A000603BC /* ProfileViewController.swift */; };
 		7B2B57E02411C2400019C650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B57DF2411C2400019C650 /* AppDelegate.swift */; };
 		7B2B57E22411C2400019C650 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B57E12411C2400019C650 /* SceneDelegate.swift */; };
-		7B2B57E42411C2400019C650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B57E32411C2400019C650 /* ViewController.swift */; };
+		7B2B57E42411C2400019C650 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B57E32411C2400019C650 /* HomeViewController.swift */; };
 		7B2B57E72411C2400019C650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2B57E52411C2400019C650 /* Main.storyboard */; };
 		7B2B57EA2411C2400019C650 /* MicroMug.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B57E82411C2400019C650 /* MicroMug.xcdatamodeld */; };
 		7B2B57EC2411C2410019C650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2B57EB2411C2410019C650 /* Assets.xcassets */; };
 		7B2B57EF2411C2410019C650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2B57ED2411C2410019C650 /* LaunchScreen.storyboard */; };
+		7BD81DD52411E3AE0092BB1C /* RecipeCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD81DD42411E3AE0092BB1C /* RecipeCategoryViewController.swift */; };
+		7BE90EC924131E1800C57DE6 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE90EC824131E1800C57DE6 /* CategoryModel.swift */; };
+		7BE90ECB2413224B00C57DE6 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE90ECA2413224B00C57DE6 /* DataSet.swift */; };
+		7BE90ECE241328BE00C57DE6 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE90ECD241328BE00C57DE6 /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B18EC1024133A5A000603BC /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		7B18EC1224133A6E000603BC /* RecipeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategory.swift; sourceTree = "<group>"; };
+		7B18EC1424133D9E000603BC /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		7B18EC162414424A000603BC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		7B2B57DC2411C2400019C650 /* MicroMug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroMug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B2B57DF2411C2400019C650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B2B57E12411C2400019C650 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7B2B57E32411C2400019C650 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B2B57E32411C2400019C650 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7B2B57E62411C2400019C650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B2B57E92411C2400019C650 /* MicroMug.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MicroMug.xcdatamodel; sourceTree = "<group>"; };
 		7B2B57EB2411C2410019C650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B2B57EE2411C2410019C650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B2B57F02411C2410019C650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD81DD42411E3AE0092BB1C /* RecipeCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategoryViewController.swift; sourceTree = "<group>"; };
+		7BE90EC824131E1800C57DE6 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		7BE90ECA2413224B00C57DE6 /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
+		7BE90ECD241328BE00C57DE6 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +74,40 @@
 		7B2B57DE2411C2400019C650 /* MicroMug */ = {
 			isa = PBXGroup;
 			children = (
+				7BE90ECC241326EB00C57DE6 /* View */,
+				7BE90EC724131DD700C57DE6 /* Model */,
 				7B2B57DF2411C2400019C650 /* AppDelegate.swift */,
 				7B2B57E12411C2400019C650 /* SceneDelegate.swift */,
-				7B2B57E32411C2400019C650 /* ViewController.swift */,
+				7B2B57E32411C2400019C650 /* HomeViewController.swift */,
+				7BD81DD42411E3AE0092BB1C /* RecipeCategoryViewController.swift */,
+				7B18EC1424133D9E000603BC /* RecipesViewController.swift */,
 				7B2B57E52411C2400019C650 /* Main.storyboard */,
 				7B2B57EB2411C2410019C650 /* Assets.xcassets */,
 				7B2B57ED2411C2410019C650 /* LaunchScreen.storyboard */,
 				7B2B57F02411C2410019C650 /* Info.plist */,
 				7B2B57E82411C2400019C650 /* MicroMug.xcdatamodeld */,
+				7B18EC162414424A000603BC /* ProfileViewController.swift */,
 			);
 			path = MicroMug;
+			sourceTree = "<group>";
+		};
+		7BE90EC724131DD700C57DE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BE90EC824131E1800C57DE6 /* CategoryModel.swift */,
+				7BE90ECA2413224B00C57DE6 /* DataSet.swift */,
+				7B18EC1224133A6E000603BC /* RecipeCategory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BE90ECC241326EB00C57DE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BE90ECD241328BE00C57DE6 /* CategoryCell.swift */,
+				7B18EC1024133A5A000603BC /* RecipeCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +181,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD81DD52411E3AE0092BB1C /* RecipeCategoryViewController.swift in Sources */,
+				7B18EC1324133A6E000603BC /* RecipeCategory.swift in Sources */,
+				7BE90EC924131E1800C57DE6 /* CategoryModel.swift in Sources */,
+				7B18EC1524133D9E000603BC /* RecipesViewController.swift in Sources */,
 				7B2B57EA2411C2400019C650 /* MicroMug.xcdatamodeld in Sources */,
-				7B2B57E42411C2400019C650 /* ViewController.swift in Sources */,
+				7B18EC1124133A5A000603BC /* RecipeCell.swift in Sources */,
+				7B18EC172414424A000603BC /* ProfileViewController.swift in Sources */,
+				7BE90ECE241328BE00C57DE6 /* CategoryCell.swift in Sources */,
+				7B2B57E42411C2400019C650 /* HomeViewController.swift in Sources */,
 				7B2B57E02411C2400019C650 /* AppDelegate.swift in Sources */,
+				7BE90ECB2413224B00C57DE6 /* DataSet.swift in Sources */,
 				7B2B57E22411C2400019C650 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
