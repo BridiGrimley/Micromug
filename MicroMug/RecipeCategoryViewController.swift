@@ -21,7 +21,6 @@ class RecipeCategoryViewController: UIViewController, UITableViewDelegate,  UITa
         recipesTV.delegate = self
         recipesTV.dataSource = self
         
-        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -38,12 +37,14 @@ class RecipeCategoryViewController: UIViewController, UITableViewDelegate,  UITa
         return UITableViewCell()
      }
     
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         categoryToPass = data.categories[indexPath.row].title
-        performSegue(withIdentifier: "categoryToRecipes", sender: self)
+        performSegue(withIdentifier: "cat2RecipeSW", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "Categories", style: .plain, target: nil, action: nil)
            if let recipesVC = segue.destination as? RecipesViewController {
                recipesVC.selectedCategory = categoryToPass
            }
