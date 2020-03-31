@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20351F588FDD9EBDF27AED9B /* Pods_MicroMug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF36516B069E6FE7C63F79F /* Pods_MicroMug.framework */; };
 		7B18EC1124133A5A000603BC /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18EC1024133A5A000603BC /* RecipeCell.swift */; };
 		7B18EC1324133A6E000603BC /* RecipeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18EC1224133A6E000603BC /* RecipeCategory.swift */; };
 		7B18EC1524133D9E000603BC /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18EC1424133D9E000603BC /* RecipesViewController.swift */; };
@@ -23,9 +24,13 @@
 		7BE90ECB2413224B00C57DE6 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE90ECA2413224B00C57DE6 /* DataSet.swift */; };
 		7BE90ECE241328BE00C57DE6 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE90ECD241328BE00C57DE6 /* CategoryCell.swift */; };
 		B9E475EB2422D47200560DDC /* RecipeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E475EA2422D47200560DDC /* RecipeDetailsViewController.swift */; };
+		B9FD0FB62432D5D900A59E25 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD0FB52432D5D900A59E25 /* LoginViewController.swift */; };
+		B9FD0FB82432D98500A59E25 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD0FB72432D98500A59E25 /* RegisterViewController.swift */; };
+		B9FD0FBA2432DC8000A59E25 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9FD0FB92432DC8000A59E25 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0058F791BF7A85FA1805E435 /* Pods-MicroMug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroMug.debug.xcconfig"; path = "Target Support Files/Pods-MicroMug/Pods-MicroMug.debug.xcconfig"; sourceTree = "<group>"; };
 		7B18EC1024133A5A000603BC /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		7B18EC1224133A6E000603BC /* RecipeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategory.swift; sourceTree = "<group>"; };
 		7B18EC1424133D9E000603BC /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
@@ -43,7 +48,12 @@
 		7BE90EC824131E1800C57DE6 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		7BE90ECA2413224B00C57DE6 /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 		7BE90ECD241328BE00C57DE6 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		8CF36516B069E6FE7C63F79F /* Pods_MicroMug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicroMug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E475EA2422D47200560DDC /* RecipeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewController.swift; sourceTree = "<group>"; };
+		B9FD0FB52432D5D900A59E25 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B9FD0FB72432D98500A59E25 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B9FD0FB92432DC8000A59E25 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDDF5E5EE039DF14C9B283A5 /* Pods-MicroMug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroMug.release.xcconfig"; path = "Target Support Files/Pods-MicroMug/Pods-MicroMug.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20351F588FDD9EBDF27AED9B /* Pods_MicroMug.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		238C15C9D494420DEC60175E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0058F791BF7A85FA1805E435 /* Pods-MicroMug.debug.xcconfig */,
+				CDDF5E5EE039DF14C9B283A5 /* Pods-MicroMug.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		49E92094035E43C8ECBF8B75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CF36516B069E6FE7C63F79F /* Pods_MicroMug.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7B2B57D32411C2400019C650 = {
 			isa = PBXGroup;
 			children = (
 				7B2B57DE2411C2400019C650 /* MicroMug */,
 				7B2B57DD2411C2400019C650 /* Products */,
+				238C15C9D494420DEC60175E /* Pods */,
+				49E92094035E43C8ECBF8B75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,12 +114,15 @@
 				7BD81DD42411E3AE0092BB1C /* RecipeCategoryViewController.swift */,
 				7B18EC1424133D9E000603BC /* RecipesViewController.swift */,
 				B9E475EA2422D47200560DDC /* RecipeDetailsViewController.swift */,
+				B9FD0FB52432D5D900A59E25 /* LoginViewController.swift */,
+				B9FD0FB72432D98500A59E25 /* RegisterViewController.swift */,
+				7B18EC162414424A000603BC /* ProfileViewController.swift */,
 				7B2B57E52411C2400019C650 /* Main.storyboard */,
 				7B2B57EB2411C2410019C650 /* Assets.xcassets */,
 				7B2B57ED2411C2410019C650 /* LaunchScreen.storyboard */,
 				7B2B57F02411C2410019C650 /* Info.plist */,
+				B9FD0FB92432DC8000A59E25 /* GoogleService-Info.plist */,
 				7B2B57E82411C2400019C650 /* MicroMug.xcdatamodeld */,
-				7B18EC162414424A000603BC /* ProfileViewController.swift */,
 			);
 			path = MicroMug;
 			sourceTree = "<group>";
@@ -120,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B2B57F32411C2410019C650 /* Build configuration list for PBXNativeTarget "MicroMug" */;
 			buildPhases = (
+				6F6C696166B60B4A2EAC8DAD /* [CP] Check Pods Manifest.lock */,
 				7B2B57D82411C2400019C650 /* Sources */,
 				7B2B57D92411C2400019C650 /* Frameworks */,
 				7B2B57DA2411C2400019C650 /* Resources */,
+				0CB6EA2919FBBD1FACBFE25E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -174,21 +209,66 @@
 				7B2B57EF2411C2410019C650 /* LaunchScreen.storyboard in Resources */,
 				7B2B57EC2411C2410019C650 /* Assets.xcassets in Resources */,
 				7B2B57E72411C2400019C650 /* Main.storyboard in Resources */,
+				B9FD0FBA2432DC8000A59E25 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CB6EA2919FBBD1FACBFE25E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MicroMug/Pods-MicroMug-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MicroMug/Pods-MicroMug-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MicroMug/Pods-MicroMug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F6C696166B60B4A2EAC8DAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MicroMug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B2B57D82411C2400019C650 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9FD0FB62432D5D900A59E25 /* LoginViewController.swift in Sources */,
 				7BD81DD52411E3AE0092BB1C /* RecipeCategoryViewController.swift in Sources */,
 				7B18EC1324133A6E000603BC /* RecipeCategory.swift in Sources */,
 				7BE90EC924131E1800C57DE6 /* CategoryModel.swift in Sources */,
 				7B18EC1524133D9E000603BC /* RecipesViewController.swift in Sources */,
 				7B2B57EA2411C2400019C650 /* MicroMug.xcdatamodeld in Sources */,
+				B9FD0FB82432D98500A59E25 /* RegisterViewController.swift in Sources */,
 				7B18EC1124133A5A000603BC /* RecipeCell.swift in Sources */,
 				7B18EC172414424A000603BC /* ProfileViewController.swift in Sources */,
 				7BE90ECE241328BE00C57DE6 /* CategoryCell.swift in Sources */,
@@ -338,6 +418,7 @@
 		};
 		7B2B57F42411C2410019C650 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0058F791BF7A85FA1805E435 /* Pods-MicroMug.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -356,6 +437,7 @@
 		};
 		7B2B57F52411C2410019C650 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDDF5E5EE039DF14C9B283A5 /* Pods-MicroMug.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

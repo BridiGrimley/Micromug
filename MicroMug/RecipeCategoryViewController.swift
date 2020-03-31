@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Firebase
 class RecipeCategoryViewController: UIViewController, UITableViewDelegate,  UITableViewDataSource {
     
     @IBOutlet weak var recipesTV: UITableView!
@@ -49,5 +49,17 @@ class RecipeCategoryViewController: UIViewController, UITableViewDelegate,  UITa
                recipesVC.selectedCategory = categoryToPass
            }
        }
+    
+    @IBAction func logout(_ sender: Any) {
+     do {
+              try Auth.auth().signOut()
+          }
+          catch let signOutError as NSError {
+              print ("Error signing out: %@", signOutError)
+          }
+          
+         performSegue(withIdentifier: "signoutToLogin", sender: self)
+      }
+    
 
 }

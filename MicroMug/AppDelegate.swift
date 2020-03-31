@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().titleTextAttributes = [
             NSAttributedString.Key.font: UIFont(name: "Noteworthy", size: 30)!]
         UINavigationBar.appearance().barTintColor = #colorLiteral(red: 0, green: 0.4559383988, blue: 0.5636492372, alpha: 1)
+        FirebaseApp.configure()
         return true
     }
 
