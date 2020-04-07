@@ -50,9 +50,12 @@ class RecipesViewController: UIViewController, UITableViewDelegate, UITableViewD
         performSegue(withIdentifier: "recipe2Details", sender: self)
     }
     
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let detailsVC = segue.destination as? RecipeDetailsViewController{
             detailsVC.selectedRecipe = recipeToPass
         }
+        
+      
     }
 }

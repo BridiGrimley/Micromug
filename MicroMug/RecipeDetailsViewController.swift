@@ -26,11 +26,11 @@ class RecipeDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        scrollView.layoutSubviews()
+        self.navigationItem.title = selectedRecipe.title
         methodTxt.sizeToFit()
         recipeImg.layer.cornerRadius = 10
         recipeImg.image = UIImage(named: selectedRecipe.imageName)
-        recipeTitleLbl.text = selectedRecipe.title
+//        recipeTitleLbl.text = selectedRecipe.title
         descriptionTxt.text = selectedRecipe.description
         methodTxt.text = selectedRecipe.method
         ingredientsTxt.text = selectedRecipe.ingredients
